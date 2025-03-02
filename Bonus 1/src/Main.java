@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         int n, k, i, j;
+        boolean flag = false;
         if (args.length != 2) {
             System.out.println("Incorrect number of arguments");
             return;
@@ -44,7 +45,7 @@ public class Main {
                     degreeCount++;
                 }
             }
-            if(degreeCount == k){
+            if(degreeCount >= k){
                 clique.add(i);
                 for(j = 0; j < n; j++){
                     if(graph[i][j] == 1){
@@ -65,10 +66,14 @@ public class Main {
                     }
                 }
                 if(isClique){
-                    System.out.println("Found a clique of size " + clique.size());
+                    System.out.println("Found a clique of size: " + clique.size());
                     System.out.println("The clique is " + clique.toString());
+                    flag = true;
                 }
             }
+        }
+        if(flag == false){
+            System.out.println("No cliques of size gte k");
         }
     }
 
