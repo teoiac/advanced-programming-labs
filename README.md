@@ -1,24 +1,24 @@
-# Programare Avansată - Laboratoare
+# Advanced Programming - Laboratories
 
-## Descriere
+## Description
 
-Acest repository conține laboratoarele realizate în cadrul cursului de Programare Avansată. Toate materialele și codurile sursă asociate cu laboratoarele sunt stocate pe branch-ul `master`.
+This repository contains the laboratories completed as part of the Advanced Programming course. All materials and source code associated with the laboratories are stored on the `master` branch.
 
-## Structură
+## Structure
 
-Pe branch-ul `master` veți găsi:
+On the `master` branch, you will find:
 
-- Codul sursă pentru fiecare laborator
-- Documentație și instrucțiuni asociate (dacă este cazul)
-- Exerciții și teme rezolvate în timpul orelor de laborator
+- Source code for each laboratory
+- Associated documentation and instructions (if applicable)
+- Exercises and assignments solved during the laboratory sessions
 
-## Navigare
+## Navigation
 
-Pentru a accesa laboratoarele:
+To access the laboratories:
 
-1. Asigurați-vă că sunteți pe branch-ul `master`
-2. Navigați prin directoare pentru a găsi laboratorul dorit
+1. Ensure you are on the `master` branch
+2. Navigate through the directories to find the desired laboratory
 
-## Contribuții
+## Contributions
 
-Acest repository este destinat strict pentru stocarea și urmărirea progresului laboratoarelor din cadrul cursului. Nu se acceptă contribuții externe.
+This repository is strictly intended for storing and tracking the progress of the laboratories within the course. External contributions are not accepted.
