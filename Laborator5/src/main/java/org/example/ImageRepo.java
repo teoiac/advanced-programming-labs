@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Images;
 /**
  * This class implements a simple image repository. It is like a custom collection of image records.
  */
@@ -10,13 +10,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ImageRepo {
-    private List<Image> images;
+    private List<org.example.Image> images;
 
     public ImageRepo() {
-        this.images = new ArrayList<Image>();
+        this.images = new ArrayList<org.example.Image>();
     }
 
-    public void addImage(Image image) {
+    public void addImage(org.example.Image image) {
         this.images.add(image);
     }
 
@@ -25,7 +25,7 @@ public class ImageRepo {
      * @param image
      */
 
-    public void displayImage(Image image) {
+    public void displayImage(org.example.Image image) {
         File imageFile = new File(image.locationPath());
         if (imageFile.exists() && Desktop.isDesktopSupported()) {
             try {
@@ -39,7 +39,7 @@ public class ImageRepo {
     }
 
     public void printImages() {
-        for (Image image : this.images) {
+        for (org.example.Image image : this.images) {
             System.out.println(image);
         }
     }
@@ -48,7 +48,7 @@ public class ImageRepo {
         images.removeIf(img -> img.name().equals(name));
     }
 
-    public List<Image> getRepo() {
+    public List<org.example.Image> getRepo() {
         return images;
     }
 }

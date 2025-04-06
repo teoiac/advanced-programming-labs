@@ -1,6 +1,8 @@
-package org.example;
+package org.example.Commands;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.example.Command;
+import org.example.ImageRepo;
 
 import java.io.File;
 import java.io.IOException;
