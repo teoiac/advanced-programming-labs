@@ -3,6 +3,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 
+/**
+ * MainWndow class represents the main GUI of our application
+ *
+ */
 
 public class MainWindow {
     private JFrame window;
@@ -12,6 +16,10 @@ public class MainWindow {
         initialize();
     }
 
+    /**
+     * Initializes the main components of the window
+     * Configures the drawing panel, configuration panel and control panel
+     */
     public void initialize() {
         window = new JFrame();
         window.setLayout(new BorderLayout(10, 5));

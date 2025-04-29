@@ -3,6 +3,11 @@ package org.example;
 import java.awt.*;
 import java.util.Map;
 
+/**
+ * Line class represents a line segment defined with 2 POINTS
+ * It jhas methods to get the points the color and the length of the line, and it also
+ * converts the color into a string for the load and save functions
+ */
 public class Line {
     private final Point start;
     private final Point end;
