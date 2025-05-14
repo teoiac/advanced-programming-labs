@@ -1,0 +1,23 @@
+city,country,code,continent,capital,latitude,longitude
+London,United Kingdom,GBR,Europe,true,51.509865,-0.118092
+Paris,France,FRA,Europe,true,48.856614,2.352222
+Berlin,Germany,DEU,Europe,true,52.520008,13.404954
+Rome,Italy,ITA,Europe,true,41.902782,12.496366
+Madrid,Spain,ESP,Europe,true,40.416775,-3.703790
+Washington DC,United States,USA,North America,true,38.907192,-77.036871
+Ottawa,Canada,CAN,North America,true,45.421530,-75.697193
+Mexico City,Mexico,MEX,North America,true,19.432608,-99.133209
+Beijing,China,CHN,Asia,true,39.904200,116.407396
+Tokyo,Japan,JPN,Asia,true,35.689487,139.691711
+New Delhi,India,IND,Asia,true,28.613939,77.209021
+Sydney,Australia,AUS,Australia,false,-33.868820,151.209296
+Canberra,Australia,AUS,Australia,true,-35.280937,149.130005
+Cairo,Egypt,EGY,Africa,true,30.044420,31.235712
+Cape Town,South Africa,ZAF,Africa,false,-33.924870,18.424055
+Pretoria,South Africa,ZAF,Africa,true,-25.747868,28.229271
+Rio de Janeiro,Brazil,BRA,South America,false,-22.906847,-43.172896
+Brasilia,Brazil,BRA,South America,true,-15.794229,-47.882166
+Buenos Aires,Argentina,ARG,South America,true,-34.603684,-58.381559
+Lima,Peru,PER,South America,true,-12.046374,-77.042793
+Bucharest,Romania,RO,Europe,true, 44.4268,26.1025
+Iasi,Romania,RO,Europe,false,47.1585,27.6014
