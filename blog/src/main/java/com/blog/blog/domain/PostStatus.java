@@ -1,4 +1,5 @@
-package com.blog.blog.domain.entities;
+package com.blog.blog.domain;
 
-public class PostStatus {
+public enum PostStatus {
+    DRAFT, PUBLISHED
 }
